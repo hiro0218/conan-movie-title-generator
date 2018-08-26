@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="result">時計じかけの摩天楼</div>
+    <div class="result">{{ result }}</div>
     <div class="form">
       <button @click="generate">生成</button>
     </div>
@@ -12,7 +12,7 @@ export default {
   name: 'Generator',
   data() {
     return {
-      result: null,
+      result: '時計じかけの摩天楼',
       title: {
         head: [
           '時計じかけ',
@@ -66,16 +66,12 @@ export default {
       conjunction: 'の',
     };
   },
-  mounted() {
-    this.result = this.$el.querySelector('.result');
-  },
   methods: {
     generate: function() {
-      /* eslint-disable */
       let head = this.title.head[this.getRandomInt(this.title.head.length)]
       let tail = this.title.tail[this.getRandomInt(this.title.tail.length)]
 
-      this.result.textContent = head + this.conjunction + tail
+      this.result = head + this.conjunction + tail
     },
     getRandomInt: function(length) {
       return Math.floor(Math.random() * Math.floor(length));
