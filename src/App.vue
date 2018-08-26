@@ -6,6 +6,8 @@
 </template>
 
 <script>
+import 'normalize.css'
+
 import Generator from './components/Generator.vue'
 
 export default {
