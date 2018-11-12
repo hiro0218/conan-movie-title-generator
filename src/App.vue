@@ -2,6 +2,9 @@
   <div id="app">
     <h1>名探偵コナン 映画タイトル ジェネレーター</h1>
     <Generator/>
+    <Adsense 
+      data-ad-client="ca-pub-7651142413133023"
+      data-ad-slot="5864154990"/>
   </div>
 </template>
 
@@ -47,7 +50,12 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
 h1 {
   margin-bottom: 1rem;
+}
+
+.adswrapper {
+  margin: 1rem 0;
 }
 </style>
