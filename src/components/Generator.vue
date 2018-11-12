@@ -2,7 +2,7 @@
   <div>
     <div class="result">{{ result }}</div>
     <div class="form">
-      <button @click="generate">生成</button>
+      <button @click="generate" class="button is-primary">生成</button>
     </div>
   </div>
 </template>
@@ -83,5 +83,6 @@ export default {
 <style scoped>
 .result {
   font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 </style>
