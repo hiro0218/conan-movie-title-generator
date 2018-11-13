@@ -2,9 +2,10 @@
   <div id="app">
     <h1>名探偵コナン 映画タイトル ジェネレーター</h1>
     <Generator/>
-    <Adsense 
+    <Adsense
       data-ad-client="ca-pub-7651142413133023"
-      data-ad-slot="5864154990"/>
+      data-ad-slot="5864154990"
+    />
   </div>
 </template>
 
