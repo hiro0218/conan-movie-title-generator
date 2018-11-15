@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <section>
     <div class="result">{{ result }}</div>
     <div class="form">
       <button @click="generate" class="button is-primary">生成</button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
