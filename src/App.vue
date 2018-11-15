@@ -57,6 +57,7 @@ h1 {
 }
 
 .adswrapper {
+  width: 45vw;
   margin: 1rem 0;
 }
 </style>
